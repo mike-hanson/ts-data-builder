@@ -1,0 +1,39 @@
+{
+  "name": "@testpossessed/ts-data-builder",
+  "version": "1.0.0",
+  "description": "Provides a builder for creating test data objects with a fluent and expressive syntax suitable for TypeScript or modern JavaScript development ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-ts",
+    "tdd": "nodemon --ext ts --exec jasmine-ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testpossessed/ts-data-builder.git"
+  },
+  "keywords": [
+    "builder",
+    "testing",
+    "data",
+    "typescript",
+    "javascript",
+    "node",
+    "browser"
+  ],
+  "author": "Mike Hanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testpossessed/ts-data-builder/issues"
+  },
+  "homepage": "https://github.com/testpossessed/ts-data-builder#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "jasmine": "^3.4.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.3.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+results
+spec
+src
+.gitignore
+*.conf.js
+package-lock-json
+tsConfig.json
+tsLint.json
+wallaby.js
